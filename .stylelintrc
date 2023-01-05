@@ -1,0 +1,23 @@
+{
+	"plugins": [
+		"stylelint-order",
+    "stylelint-scss"
+	],
+
+  "extends": [
+    "stylelint-config-rational-order",
+    "stylelint-config-standard-scss"
+  ],
+
+  "rules": {
+    "declaration-empty-line-before": null,
+    "plugin/rational-order": [
+      true,
+      { "empty-line-between-groups": true }
+    ],
+    "at-rule-no-unknown": null,
+    "scss/no-global-function-names": null,
+    "scss/at-rule-no-unknown": true,
+    "selector-class-pattern": null
+  }
+}
